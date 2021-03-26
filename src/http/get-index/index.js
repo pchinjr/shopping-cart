@@ -50,9 +50,7 @@ async function http (req) {
     </form>
     </ul>
     <p>This is your order</p>
-    <p>${JSON.stringify(result)}</p>
-
-    <p>${result.map(item => `<li>${JSON.stringify(item.cartItem)}</li>`).join('')}</p>
+    <ul>${result.map(item => `<li>${JSON.stringify(item.cartItem)}</li>`).join('')}</ul>
     `
   }
 }
