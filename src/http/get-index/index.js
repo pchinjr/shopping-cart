@@ -19,7 +19,7 @@ async function http (req) {
     <p> Welcome to the Store </p>
     <ul>
     <li>Item 1</li>
-    <form action='cart/' method='POST'>
+    <form action='cart' method='POST'>
     <input type="text" name="quantity"/>
     <input type="hidden" name="productId" value='001'>
     <button>Add to Cart</button>
@@ -29,7 +29,7 @@ async function http (req) {
     <button>Remove from Cart</button>
     </form>
     <li>Item 2</li>
-    <form action='cart/' method='POST'>
+    <form action='cart' method='POST'>
     <input type="text" name="quantity"/>
     <input type="hidden" name="productId" value='002'>
     <button>Add to Cart</button>
@@ -39,7 +39,7 @@ async function http (req) {
     <button>Remove from Cart</button>
     </form>
     <li>Item 3</li>
-    <form action='cart/' method='POST'>
+    <form action='cart' method='POST'>
     <input type="text" name="quantity"/>
     <input type="hidden" name="productId" value='003'>
     <button>Add to Cart</button>
