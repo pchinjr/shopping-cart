@@ -7,7 +7,6 @@ async function http (req) {
     table: 'shopping-cart'
   })
 
-
   return {
     statusCode: 200,
     headers: {
