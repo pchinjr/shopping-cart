@@ -3,7 +3,6 @@ shopping
 
 @http
 get /
-get /cart
 post /cart
 post /cart/delete
 
